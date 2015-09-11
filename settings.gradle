@@ -1,0 +1,3 @@
+include ':app'
+include ':FlicLib'
+project(':FlicLib').projectDir=new File('android-lib2/fliclib')

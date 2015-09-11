@@ -1,0 +1,3 @@
+[submodule "android-lib2"]
+	path = android-lib2
+	url = https://github.com/50ButtonsEach/android-lib2.git
