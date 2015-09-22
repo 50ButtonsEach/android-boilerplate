@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		FlicManager.setAppCredentials("[appId]", "[appSecret]");
 		FlicManager.getInstance(this, new FlicManagerInitializedCallback() {
 
 			@Override
